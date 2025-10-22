@@ -1,0 +1,31 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/LaserScan
+      Enabled: true
+      Name: LaserScan
+      Topic: /scan
+      Queue Size: 10
+      Color Transformer: Intensity
+      Size (m): 0.05
+      Style: Points
+      Alpha: 1.0
+      Autocompute Intensity Bounds: true
+      Min Intensity: 0.0
+      Max Intensity: 100.0
+      Decay Time: 0
+      Position Transformer: XYZ
+  Enabled: true
+  Global Options:
+    Fixed Frame: laser_frame
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+    - Class: rviz_default_plugins/SetGoal
+  Value: true
+
